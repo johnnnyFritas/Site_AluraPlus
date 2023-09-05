@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root {
+    --branco-primaria: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-primaria);
+
+    font-family: var(--fonte-principal);
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.principal {
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    
+}
+
+.titulo {
+    font-weight: 700;
+
+    font-size: 28px;
+}
+
+.imagem {
+    margin: 1em 0 2em 0;
+}
+
+.botao__link {
+    display: block;
+
+    background-color: var(--botao-azul);
+
+    border-radius: 8px;
+
+    padding: 1em;
+
+    color: var(--branco-primaria);
+
+    text-decoration: none;
+
+    margin-bottom: 1em;
+    
+}
+
+.botao__link:hover {
+    background-color: rgb(1, 1, 216);
+}
+
+.botao__secundario {
+    background-color: transparent;
+
+    border: 2px solid var(--branco-primaria);
+}
+
+.botao__secundario:hover {
+    background-color: #918f8f;
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__conteudo {
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+
+    
+}
+
+.container__descricao {
+    text-align: start;
+    
+    margin: 0 5em;
+}
+
+.secundario__imagem {
+    margin: 0 10em;
+
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.descricao__paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 0.7em;
+
+    color: var(--cinza-secundario);
+}
+
+.descricao__paragrafo2 {
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0 6em;
+    margin-top: 0.7em;
+
+    color: var(--cinza-secundario);
+}
+
+.secundario__imagem2 {
+    margin: 0 15em;
+
+    width: 70%;
+}
+
+.dispositivos {
+    margin-top: 160px;
+    height: 100vh;
+}
+
+.dispositivos__lista {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 8em;
+
+    justify-content: center;
+    gap: 8em;
+
+    list-style-type: none;
+}
+
+.titulo3 {
+    display: flex;
+
+    font-size: 58px;
+
+    justify-content: center;
+}
+
+.subtitulo {
+    display: flex;
+
+    justify-content: center;
+
+}
